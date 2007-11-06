@@ -1,0 +1,39 @@
+#summary Instructions on getting Mozilla source code and applying our patch to it.
+
+= Introduction =
+
+The bulk of our xulrunner code is not hosted here; it is hosted directly on the Mozilla project's CVS servers. These are basic instructions for downloading the source from Mozilla and applying our patchset.
+
+
+= Details =
+
+First, familiarize yourself with the [http://developer.mozilla.org/en/docs/Build_Documentation Mozilla Build Documentation]
+
+Then choose a source directory and execute the following command:
+
+{{{
+% cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/cvsroot co -r FIREFOX_2_0_0_4_RELEASE mozilla/client.mk mozilla/xulrunner/config/mozconfig
+}}}
+
+Also, you'll need to explicitly check out one more file if doing a universal-binary Mac build:
+
+{{{
+% cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/cvsroot co -r FIREFOX_2_0_0_4_RELEASE mozilla/client.mk mozilla/build/macosx/universal/mozconfig
+}}}
+
+Future versions of AdWords Editor may use a Mozilla build label more current than FIREFOX_2_0_0_4_RELEASE. Previous build labels will be noted below.
+
+That done, go over to the downloads page and download the patch file appropriate for your release tag.
+
+Apply it to your mozilla sources as follows:
+
+{{{
+% cd mozilla
+% patch < [path_to_downloaded_patch_file]
+}}}
+
+That's it! You're now ready to build the application in a xulrunner configuration, per the Mozilla Build Instructions.
+
+= Old Release Labels =
+
+Nothing here yet!
