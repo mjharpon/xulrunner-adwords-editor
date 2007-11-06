@@ -36,7 +36,7 @@ The bulk of our xulrunner code is not hosted here; it is hosted directly on the 
 % patch < [path_to_downloaded_patch_file]
 }}}
 
-That's it! You're now ready to build the application in a xulrunner configuration, per the Mozilla Build Instructions.
+That's it! You're now ready to build xulrunner from the same source we use. Refer again to the [http://developer.mozilla.org/en/docs/Build_Documentation Mozilla Build Documentation] if in doubt at any step of this process.
 
 Future versions of AdWords Editor may use a Mozilla build label more current than FIREFOX_2_0_0_4_RELEASE. Previous build labels will be noted below.
 
