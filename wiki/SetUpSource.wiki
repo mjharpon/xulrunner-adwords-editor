@@ -30,7 +30,7 @@ The bulk of our xulrunner code is not hosted here; it is hosted directly on the 
 % make -f client.mk checkout
 }}}
 
-  * That done, go over to the downloads page and download the patch file appropriate for your release tag. Apply it to your mozilla sources as follows:
+  * That done, go over to the downloads page and download the patch file appropriate for your release tag (currently, patch-to-FF_2_0_0_4_RELEASE-for-AE-5_0_0.patch). Apply it to your mozilla sources as follows:
 
 {{{
 % patch < [path_to_downloaded_patch_file]
@@ -38,7 +38,7 @@ The bulk of our xulrunner code is not hosted here; it is hosted directly on the 
 
 That's it! You're now ready to build xulrunner from the same source we use. Refer again to the [http://developer.mozilla.org/en/docs/Build_Documentation Mozilla Build Documentation] if in doubt at any step of this process.
 
-Future versions of AdWords Editor may use a Mozilla build label more current than FIREFOX_2_0_0_4_RELEASE. Previous build labels will be noted below.
+Future versions of !AdWords Editor may use a Mozilla build label more current than FIREFOX_2_0_0_4_RELEASE. Previous build labels will be noted below.
 
 = Old Release Labels =
 
