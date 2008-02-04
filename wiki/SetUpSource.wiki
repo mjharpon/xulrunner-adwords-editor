@@ -18,7 +18,7 @@ The bulk of our xulrunner code is not hosted here; it is hosted directly on the 
   * If doing a universal-binary Mac build, check out one more file:
 
 {{{
-% cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/cvsroot co -r FIREFOX_2_0_0_4_RELEASE mozilla/client.mk mozilla/build/macosx/universal/mozconfig
+% cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/cvsroot co -r FIREFOX_2_0_0_4_RELEASE mozilla/build/macosx/universal/mozconfig
 }}}
 
   * Set up a .mozconfig file with appropriate options for the system that you're building the code on, per the Mozilla build instructions. Notably, MOZ_CO_PROJECT=xulrunner should appear in your .mozconfig file. Set the MOZCONFIG environment variable to the path to your .mozconfig.
