@@ -922,9 +922,15 @@ Ispell
 ==pt-BR dictionary:==
 
 {{{
-This dictionary is based on a ispell version of the Portuguese dictionary and the "conjugue" script created by Ricardo Ueda Karpischek mailto:ueda@ime.usp.br both available in http://www.ime.usp.br/~ueda/br.ispell/ and thus are covered by his original Free Software Foundation (FSF) GPL version 2 license.
+This dictionary is based on a ispell version of the Portuguese dictionary
+and the "conjugue" script created by Ricardo Ueda Karpischek
+mailto:ueda@ime.usp.br both available in http://www.ime.usp.br/~ueda/br.ispell/
+and thus are covered by his original Free Software Foundation (FSF)
+GPL version 2 license.
 
-All modifications to the affix file and wordlist to make it work with MySpell were done by Augusto Tavares Rosa Marcacini mailto:amarcacini@adv.oabsp.org.br and covered by the same GPL version 2 license.
+All modifications to the affix file and wordlist to make it work with MySpell
+were done by Augusto Tavares Rosa Marcacini mailto:amarcacini@adv.oabsp.org.br
+and covered by the same GPL version 2 license.
 }}}
 
 
