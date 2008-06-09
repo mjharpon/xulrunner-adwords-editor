@@ -155,7 +155,7 @@ in this Software without prior written authorization of the copyright holder.
 }}}
 
 
-==SQlite:==
+==SQLite:==
 
 {{{
 SQLite Copyright:
@@ -761,7 +761,7 @@ EXHIBIT A -Mozilla Public License.
           [___] License."
 }}}
 
-==Dutch MySpell Dictionary:==
+==Dutch !MySpell Dictionary:==
 
 {{{
 Word lists version 18 august 2003
@@ -862,7 +862,7 @@ DICT it IT la
 }}}
 
 
-==Dictionnaire MySpell fr-FR:==
+==Dictionnaire !MySpell fr-FR:==
 
 {{{
 La première version du dictionnaire MySpell pour OpenOffice.org à été crée
