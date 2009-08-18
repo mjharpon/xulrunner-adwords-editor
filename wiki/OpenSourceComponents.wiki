@@ -1,5 +1,7 @@
 #summary This product contains components that are available under open source licenses or in the public domain.  The copyright notices for each of those components is contained below.
 
+*IMPORTANT NOTE: If you came to this page because you have just installed !AdWords Editor and cannot figure out how to accept the Terms and Conditions, this page will not help you. Read the Terms and Conditions in their entirety and SCROLL THEM TO THE BOTTOM to enable the "I Accept" button.*
+
 This product contains components that are available under open source licenses or in the public domain.  The copyright notices for each of those components is contained below.
 
 ==libCurl:==
